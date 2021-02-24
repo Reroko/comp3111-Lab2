@@ -8,8 +8,4 @@ public class Charger {
 	public void charge(Chargeable c) {
 		c.charge();
 	}
-
-	public void charge(MobileComputer c) {
-		c.charge();
-	}
 }

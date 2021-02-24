@@ -1,6 +1,6 @@
 package comp3111.Lab2.ex2;
 
-public class MobileComputer extends Computer{
+public class MobileComputer extends Computer implements Chargeable{
 	private int battery;
 	public MobileComputer() {
 		secret = "MoblieComputer";
